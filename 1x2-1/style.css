@@ -1,0 +1,66 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  min-height: 100vh;
+}
+
+.container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 2rem auto 2rem;
+      grid-template-columns: 2rem auto 2rem;
+  -ms-grid-rows: 3rem auto 1rem auto 3rem;
+      grid-template-rows: 3rem auto 1rem auto 3rem;
+  min-height: 100vh;
+}
+
+.item-1 {
+  -ms-grid-column: 2;
+      grid-column-start: 2;
+  grid-column-end: 3;
+  -ms-grid-row: 1;
+      grid-row-start: 1;
+  grid-row-end: 3;
+  background-color: #e22d0d;
+}
+
+.item-2 {
+  -ms-grid-column: 2;
+      grid-column-start: 2;
+  grid-column-end: 3;
+  -ms-grid-row: 4;
+      grid-row-start: 4;
+  grid-row-end: 4;
+  background-color: #969696;
+}
+
+.item-3 {
+  -ms-grid-row: 5;
+      grid-row-start: 5;
+  -ms-grid-column: 2;
+      grid-column-start: 2;
+  grid-column-end: 3;
+  margin-top: 0.5rem;
+  height: 1rem;
+  background-color: #2383a8;
+}
+
+.content-1 {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 1rem;
+  background-color: #484848;
+  margin-top: 1.5rem;
+}
+
+.content-2 {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 3rem;
+  background-color: #000000;
+  margin-top: 0.5rem;
+}
+/*# sourceMappingURL=style.css.map */
