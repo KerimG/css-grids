@@ -10,8 +10,8 @@ body {
   display: grid;
   -ms-grid-columns: 2rem auto 2rem;
       grid-template-columns: 2rem auto 2rem;
-  -ms-grid-rows: 3rem auto 1rem auto 3rem;
-      grid-template-rows: 3rem auto 1rem auto 3rem;
+  -ms-grid-rows: 3rem 1fr 1rem 1fr 3rem;
+      grid-template-rows: 3rem 1fr 1rem 1fr 3rem;
   min-height: 100vh;
 }
 
